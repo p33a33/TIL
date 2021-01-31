@@ -53,7 +53,6 @@ let autoChart = () => {
         .attr("fill", "steelblue") // rect 배경색 정의
         .attr("width", x) // 너비 정의
         .attr("height", y.bandwidth() - 1) // 높이 정의(-1은 위쪽 패딩이라고 생각하면 됨.)
-    console.log(y.bandwidth())
 
     bar.append("text")
         .attr("fill", "white") // 글자색 정의
